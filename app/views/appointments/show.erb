@@ -1,0 +1,5 @@
+<%= link_to @appointment.doctor.name, doctor_path(@appointment.doctor) %>
+<%= link_to @appointment.patient.name, patient_path(@appointment.patient) %>
+<%= Appointment.get_readable_date_time(@appointment.appointment_datetime) %>
+
+<%= button_to "delete", @appointment, :method => :delete %>
