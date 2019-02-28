@@ -1,0 +1,3 @@
+<h1>This appointment:</h1>
+
+<p>Between <%= link_to @appointment.doctor.name, doctor_path(@appointment.doctor) %> & <%= link_to @appointment.patient.name, patient_path(@appointment.patient) %> at <%= @appointment.appointment_datetime.strftime(" %B %y %Y") %></p>
