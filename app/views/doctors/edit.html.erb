@@ -1,0 +1,9 @@
+<h1>Edit Doctor Form</h1>
+
+<%= form_for @doctor do |f| %>
+  <%= f.label :name %><br>
+  <%= f.text_field :name %><br><br>
+  <%= f.label :department %><br>
+  <%= f.text_field :department %><br><br>
+  <%= f.submit %>
+<% end %>
