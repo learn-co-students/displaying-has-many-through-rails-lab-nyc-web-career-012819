@@ -22,4 +22,5 @@ Appointment.create([
   {appointment_datetime: DateTime.new(2016, 07, 11, 16, 00, 0), patient: maggie, doctor: leonard},
   {appointment_datetime: DateTime.new(2016, 05, 31, 17, 00, 0), patient: homer, doctor: hawkeye},
   {appointment_datetime: DateTime.new(2017, 06, 03, 10, 00, 0), patient: marge, doctor: meredith}
+  
 ])
